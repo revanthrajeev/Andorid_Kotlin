@@ -10,11 +10,11 @@ fun main(){
     var divresult=div(num1,num2)
     println("the result of "+num1+"/"+num2+"="+divresult)
 }
-fun add(num1:Int,num2:Int):Int{//her the Int used before { is for return datatype
-    val result=num1+num2
+fun add(num1:Int,num2:Int):Double{//her the Int used before { is for return datatype
+    val result=num1+num2.toDouble()//making this double make return type float
     return result
 }
-fun div(num1:Int,num2:Int):Int{
-    val divresult=num1/num2
+fun div(num1:Int,num2:Int):Double{
+    val divresult=num1/num2.toDouble()//making this double makes the return type floating
     return divresult
 }
