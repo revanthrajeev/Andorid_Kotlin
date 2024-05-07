@@ -10,11 +10,4 @@ val size:String
 fun main(){
     val cofeeForDenis=CofeeDetails(sugarCount..0,name.."Denis",size.."xxl",creatmAmount:0)
 }
-fun askCofeeDetails(){
-    println("Who is this cofee for ?")
-    val name=readln()
-    println("How many pieces of sugar do you want?")
-    val sugarCount= readln()
-    val sugarCount=sugarCount.toInt()
-
-}
+fun makeCofee()
